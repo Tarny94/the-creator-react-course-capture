@@ -11,7 +11,9 @@ const ServiceSection = () => {
     <div className="services">
       <div className="description">
         <h2>
-          <span>quality</span> services
+          {" "}
+          Hight
+          <span>Quality</span> Services
         </h2>
         <div className="cards">
           <div className="card">

@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   background: #1b1b1b;
+  font-family: 'Inter', sans-serif;
 
 }
 
@@ -23,6 +24,16 @@ button {
   background:transparent ;
   color: white;
   transition: all 0.5s ease;
+  font-family: 'Inter', sans-serif;
+  /* animation:change 2.3s step-end infinite ;
+  @keyframes change {
+     
+    40% {
+    
+      color: black;
+    }
+  }  */
+    
   &:hover {
     background-color: #23d997;
     color: white;
@@ -30,8 +41,10 @@ button {
  
 }
 
+
+
 .buttonContactUs{
-  color: black;
+  
 }
 h2{
     font-weight: lighter;
